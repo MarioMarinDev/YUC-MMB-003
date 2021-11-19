@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style/dice.css">
+  <title>Dados</title>
+</head>
+<body>
+  
+  <div class="container">
+    <h1>Dado mágico</h1>
+    <img src="../assets/dice/1.png" alt="Dado" id="dice">
+    <button id="btn">TIRA EL DADO</button>
+  </div>
+
+  <script>
+    function rollDice() {
+      return imgs[Math.floor(Math.random()*imgs.length)];
+    }
+    let img = document.getElementById("dice");
+    let btn = document.getElementById("btn");
+    let imgs = [
+      "../assets/dice/1.png",
+      "../assets/dice/2.png",
+      "../assets/dice/3.png",
+      "../assets/dice/4.png",
+      "../assets/dice/5.png",
+      "../assets/dice/6.png",
+    ];
+    btn.addEventListener("click", function() {
+      console.log(img);
+      img.src = rollDice();
+    });
+  </script>
+
+</body>
+</html>

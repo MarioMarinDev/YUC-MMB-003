@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <img src="" alt="Una imagen de un perro">
+  <a href="../index.html">Regresar</a>
+
+  <script>
+    let url = "https://api.chucknorris.io/jokes/random";
+    fetch(url).then(function(response) {
+      return response.json();
+    }).then(function(data) {
+      /*
+      let url_imagen = data["message"];
+      let imagen = document.querySelector("img");
+      imagen.src = url_imagen;
+      */
+      console.log(data);
+    }).catch(function(error) {
+      console.log(error);
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+
+body {
+  font-size: 34px;
+}
+
+div.content img {
+  width: 250px;
+  height: 250px;
+}
+
+.container {
+  display:flex;
+}
+
+.left-panel {
+  background-color:darkslategray;
+  color: white;
+  width: 40ex;
+  border-radius: 6px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

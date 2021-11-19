@@ -1,0 +1,25 @@
+
+.rojo {
+  color: red;
+  font-size: large;
+  border-style: solid;
+  transition: 1s;
+}
+
+.verde {
+  color: green;
+  transition: 1s;
+}
+
+#login {
+  color: blue;
+}
+
+button.rojo {
+  background-color: red;
+  color: white;
+}
+
+#logo {
+  width: 100px;
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+body {
+  background-color:cadetblue; 
+  color:white;
+  font-size: 34px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.cuadrado {
+  width: 200px;
+  height: 200px;
+  transition: 0.5s;
+}
+.cuadrado:hover {
+  width: 400px;
+  transform: 10s;
+}
+b {
+  font-size: 54px;
+}
+b.seleccionado:hover {
+  color:darkblue;
+  transition: 0.5s;
+  font-size: 60px;
+}
+.boton {
+  background-color: white;
+  color:darkgreen;
+  text-decoration: none;
+  padding: 15px;
+  border-radius: 15px;
+  transition: 0.5s;
+}
+.boton:hover {
+  background-color:rgb(206, 206, 206);
+  transition: 0.5s;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+#imagen {
+  width: 200px;
+  height: 200px;
+}
+
+#nombre {
+  text-transform: uppercase;
+}
+
+#nombre, #numero {
+  margin: 0;
+}
+
+.contenedor-pokemon {
+  border-bottom-style: solid;
+  border-radius: 12px;
+  border-bottom-color: gray;
+  border-bottom-width: 8px;
+  background-color: white;
+  display: inline-block;
+}
+
+#boton-arriba, #boton-abajo {
+  background-color: transparent;
+  border-color: transparent;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#boton-arriba.blocked, #boton-abajo.blocked {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
