@@ -1,0 +1,13 @@
+{
+  "apiName": "Pokémon",
+  "origin": "México",
+  "created": "2021",
+  "pokemon": [
+    {
+      "id": 1,
+      "name": "Bulbasaur",
+      "type": "Grass",
+      "image": "https://drive.google.com/uc?export=view&id=1-E-Dcqk7KbYs62Qc1HdZebdah40ZDfhG"
+    }
+  ]
+}
